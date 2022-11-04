@@ -1,10 +1,10 @@
 package com.bridgelabz;
 
-public class MyMapNode <K, V>
+public class MyMapNode <K, V> implements  INode<K>
 {
-        K key;
-        V value;
-        MyMapNode<K, V> next;
+        private K key;
+        private V value;
+        private MyMapNode<K, V> next;
 
         public MyMapNode(K key, V value) {
             this.key = key;
@@ -16,11 +16,17 @@ public class MyMapNode <K, V>
             return key;
         }
 
+    public MyMapNode(K key) {
+        this.key = key;
+    }
+
+    public MyMapNode() {
+    }
+
         public void setKey(K key) {
             this.key = key;
         }
-
-        public V getValue() {
+    public V getValue() {
             return value;
         }
 
@@ -28,20 +34,21 @@ public class MyMapNode <K, V>
             this.value = value;
         }
 
-        public MyMapNode<K, V> getNext() {
+        public INode<K> getNext() {
             return next;
         }
 
-        public void setNext(MyMapNode<K, V> next) {
-            this.next = (MyMapNode<K, V>) next;
-        }
+    @Override
+    public void setNext(INode<K> next) {
+        this.next = (MyMapNode<K, V>) next;
+    }
 
         @Override
         public String toString() {
-            return "MyMapNode{" +
-                    "key=" + key +
-                    ", value=" + value +
-                    ", next=" + next +
-                    '}';
+            StringBuilder nodeString = new StringBuilder();
+            nodeString.append(key).append(" | ").append(value).append("->");
+            if (next != null)
+                nodeString.append(" , ").append(next);
+            return nodeString.toString();
         }
 }
