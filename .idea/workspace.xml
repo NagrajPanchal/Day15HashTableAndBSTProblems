@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27533644-f06e-43a9-93e3-8ea3bffc9b7b" name="Changes" comment="Added : Frequency of words">
+    <list default="true" id="27533644-f06e-43a9-93e3-8ea3bffc9b7b" name="Changes" comment="Added : Frequency of words in a large paragraph">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/MainHashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/MainHashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/MyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="UC1-Frequency_of_words" />
+        <entry key="$PROJECT_DIR$" value="UC2-Frequency_of_words_in_a_large_paragraph" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -98,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667536145511</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added : Frequency of words in a large paragraph">
+      <created>1667536726768</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667536726768</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +123,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added : Hash Table" />
     <MESSAGE value="Added : Frequency of words" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added : Frequency of words" />
+    <MESSAGE value="Added : Frequency of words in a large paragraph" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added : Frequency of words in a large paragraph" />
   </component>
 </project>

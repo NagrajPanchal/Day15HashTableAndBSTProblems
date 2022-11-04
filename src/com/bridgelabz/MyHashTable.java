@@ -41,7 +41,11 @@ public class MyHashTable<K,V>
                 myLinkedList1.add(newNode);
             }
         }
-
+    }
+    public void delete(K key) {
+        int indexValue = getIndex(key);
+        MyLinkedList<K> myLinkedList1 = myBucketArray.get(indexValue);
+        myLinkedList1.deletion(key);
     }
 
     public V findFrequency(K key){
